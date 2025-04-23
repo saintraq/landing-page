@@ -6,7 +6,6 @@ body {
 
 .header {
     display: flex;
-    flex: 1;
     align-items: center;
     justify-content: space-between;
     font-size: 18px;
@@ -33,9 +32,10 @@ a {
     flex: 1;
     color: #e5e7eb;
     background: #1f2937;
-    padding: 16px 80px;
+    padding: 80px 80px;
     gap: 16px;
     align-items: center;
+    justify-content: center;
 }
 
 .angel {
@@ -43,3 +43,19 @@ a {
     width: auto;
 
 }
+
+h2 {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
