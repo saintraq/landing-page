@@ -96,7 +96,7 @@ img {
 
 .action {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: #3882f6;
     color: #f9faf8; 
