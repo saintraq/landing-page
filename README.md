@@ -1,5 +1,5 @@
 # landing-page
-Project for TOP Foundations course
+This is the home page of my self-made website, a work in progress as I continue to learn to code.
 
 Photo credits: 
 Cosmin Gurau on Unsplash

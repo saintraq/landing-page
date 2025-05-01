@@ -1,21 +1,22 @@
 body {
     display:flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 16px;
     color: #e5e7eb;
-    background: #1f2937;
-    padding: 16px 80px;
+    background: #a2bee5;
+    padding: 25px 80px;
 }
 
 .logo {
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 ul {
@@ -23,7 +24,7 @@ ul {
     display: flex;
     margin:0;
     padding:0;
-    gap: 25px;
+    gap: 35px;
 }
 
 a {
@@ -33,13 +34,20 @@ a {
 
 .container {
     display: flex;
-    flex: 1;
-    color: #e5e7eb;
-    background: #1f2937;
+    color: #858a94;
+    background: #faefee;
     padding: 80px 150px;
     gap: 25px;
     align-items: center;
     justify-content: center;
+}
+
+.welcome {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
 }
 
 .angel {
@@ -50,6 +58,7 @@ a {
 }
 
 h2 {
+    color: #858a94;
     text-align: center;
     margin-top: 30px;
 }
@@ -65,11 +74,12 @@ h2 {
 
 img {
     height: 150px;
-    border:2px solid #3882f6;
+    border:2px solid #e780782a;
     border-radius: 10px
 }
 
 .text {
+    color: #858a94;
     width: 150px;
     text-align: center;
 }
@@ -100,7 +110,7 @@ img {
     max-width: 900px;
     justify-content: space-between;
     align-items: center;
-    background: #3882f6;
+    background: #b8cbeb;
     color: #f9faf8; 
     gap: 150px;
     margin: 40px auto;
@@ -110,8 +120,9 @@ img {
 
 .button {
     height: 30px;
+    max-width: fit-content;
     padding: 0 20px;
-    background: #3882f6;
+    background: #f0c1b96c;
     color: #f9faf8; 
     border: 1px solid whitesmoke;
     border-radius: 8px;
@@ -122,8 +133,9 @@ img {
 }
 
 .footer {
-    background-color: #1f2937;
-    color: #e5e7eb;
+    background-color: #faebe7;
+    color: #8e929b;
+    font-size: 12px;
     text-align: center;
     padding: 30px;
 }
