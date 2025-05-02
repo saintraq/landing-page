@@ -6,6 +6,7 @@ body {
 
 .header {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     font-size: 16px;
@@ -17,6 +18,7 @@ body {
 .logo {
     font-size: 20px;
     font-weight: 800;
+    margin-bottom: 20px;
 }
 
 ul {
@@ -34,9 +36,10 @@ a {
 
 .container {
     display: flex;
+    flex-direction: column;
     color: #858a94;
     background: #faefee;
-    padding: 80px 150px;
+    padding: 50px 150px;
     gap: 25px;
     align-items: center;
     justify-content: center;
@@ -48,6 +51,20 @@ a {
     flex-direction: column;
     max-width: 500px;
     margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 p {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+}
+
+p {
+    font-size: 14px;
 }
 
 .angel {
@@ -126,6 +143,7 @@ img {
     color: #f9faf8; 
     border: 1px solid whitesmoke;
     border-radius: 8px;
+    align-self: center;
 }
 
 .container .button {
