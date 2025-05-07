@@ -50,7 +50,6 @@ a {
     flex-wrap: wrap;
     flex-direction: column;
     max-width: 500px;
-    margin: auto;
 }
 
 h1 {
@@ -111,19 +110,21 @@ img {
 
 .quote-body {
     max-width: 900px;
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
     font-style: italic;
     font-weight: lighter;
+    margin-inline: 30px;
 
 }
 
 .credit {
     font-size: 24px;
+    margin-left: auto;
+
 }
 
 .action {
-    display: flex;
     max-width: 900px;
     justify-content: space-between;
     align-items: center;
@@ -144,6 +145,7 @@ img {
     border: 1px solid whitesmoke;
     border-radius: 8px;
     align-self: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .container .button {
